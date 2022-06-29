@@ -57,7 +57,7 @@ class UserController extends Controller
                 'password' => 'required',
                 'c_password' => 'required|same:password',
             ]
-        );
+        );//test
 
         if ($validator->fails()) {
             return response()->json(
