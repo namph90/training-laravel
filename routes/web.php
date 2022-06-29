@@ -15,11 +15,11 @@ use App\Helpers\Facades\CustomLog;
 */
 
 Route::get('/', function () {
-    CustomLog::logInfo('------------------test log info----------------');
-    CustomLog::logApi('------------------test log api----------------');
-    CustomLog::logWarning('------------------test log warning----------------');
-    CustomLog::logBatch('------------------test log batch----------------');
-    CustomLog::logError('------------------test log error----------------');
-    CustomLog::logDebug('------------------test log debug----------------');
+//    CustomLog::logInfo('------------------test log info----------------');
+//    CustomLog::logApi('------------------test log api----------------');
+//    CustomLog::logWarning('------------------test log warning----------------');
+//    CustomLog::logBatch('------------------test log batch----------------');
+//    CustomLog::logError('------------------test log error----------------');
+//    CustomLog::logDebug('------------------test log debug----------------');
     return view('welcome');
 });
